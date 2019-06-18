@@ -1,0 +1,34 @@
+{
+  "name": "red-appium",
+  "version": "1.0.0",
+  "description": "red crewler",
+  "main": "index.js",
+  "scripts": {
+    "run": "node your-appium-test.js",
+    "test": "./node_modules/.bin/mocha --require @babel/register test/*.spec.js --timeout 50000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.13.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "colors": "^1.3.3",
+    "express": "^4.17.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7",
+    "underscore": "^1.9.1",
+    "wd": "^1.11.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4"
+   
+  }
+}
